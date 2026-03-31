@@ -31,23 +31,11 @@
 1. **Stamp** a new repo from this template
 2. **Add an accelerator** — drop a pattern pack into [`accelerators/`](accelerators/README.md)
 3. **Configure** — fill [`BRIEF.md`](BRIEF.md) and [`.hackathon/config.json`](.hackathon/config.json)
-4. **Run** — follow the lifecycle below
+4. **Run** — follow the [lifecycle](#lifecycle--deliverables) below
 
 ---
 
-## Documents
-
-| Before | During | After |
-|--------|--------|-------|
-| [BRIEF.md](BRIEF.md) — goals & scope | [use-case-canvas](templates/use-case-canvas.md) | [HANDOFF.md](HANDOFF.md) — deliverable |
-| [config.json](.hackathon/config.json) — setup | [feasibility-scorecard](templates/feasibility-scorecard.md) | [RETRO.md](RETRO.md) — retrospective |
-| [checklist-formation](.hackathon/checklist-formation.md) | [use-case template](use-cases/_template.md) | [checklist-winddown](.hackathon/checklist-winddown.md) |
-| | [decision template](architecture/decisions/_template.md) | [checklist-knowledge](.hackathon/checklist-knowledge-extract.md) |
-| | [demo-script](templates/demo-script-template.md) | |
-
----
-
-## Lifecycle
+## Lifecycle & Deliverables
 
 ```mermaid
 ---
@@ -70,13 +58,13 @@ graph LR
     linkStyle default stroke:#9CA3AF,stroke-width:2px
 ```
 
-| Stage | When | What happens |
-|-------|------|-------------|
-| **Formation** | Pre-hackathon | Assemble team, prep data, set scope |
-| **Ideation** | Day 1 morning | Use case brainstorming, feasibility scoring |
-| **Build** | Day 1 afternoon – Day 2 | PoC development, data wrangling |
-| **Demo** | Final session | Pitch narrative, live presentation |
-| **Wind-Down** | Post-hackathon | Retrospective, knowledge capture |
+| Stage | When | What happens | Documents |
+|-------|------|-------------|-----------|
+| **Formation** | Pre-hackathon | Assemble team, prep data, set scope | [BRIEF.md](BRIEF.md), [config.json](.hackathon/config.json), [checklist-formation](.hackathon/checklist-formation.md) |
+| **Ideation** | Day 1 morning | Use case brainstorming, feasibility scoring | [use-case-canvas](templates/use-case-canvas.md), [feasibility-scorecard](templates/feasibility-scorecard.md) |
+| **Build** | Day 1 afternoon – Day 2 | PoC development, data wrangling | [use-case template](use-cases/_template.md), [decision template](architecture/decisions/_template.md) |
+| **Demo** | Final session | Pitch narrative, live presentation | [demo-script](templates/demo-script-template.md) |
+| **Wind-Down** | Post-hackathon | Retrospective, knowledge capture, handoff | [HANDOFF.md](HANDOFF.md), [RETRO.md](RETRO.md), [checklist-winddown](.hackathon/checklist-winddown.md), [checklist-knowledge](.hackathon/checklist-knowledge-extract.md) |
 
 ---
 
@@ -89,9 +77,3 @@ graph LR
 | Richard | Builder | PoC execution — notebooks, pipelines |
 | Dinesh | Data Wrangler | Data sourcing, cleaning, simulators |
 | Erlich | Demo Crafter | Demo narrative, storytelling, pitch coaching |
-
----
-
-<div align="center">
-<sub>Maintained by Sarah Moens — Cloud Solution Architect at Microsoft Belgium</sub>
-</div>
