@@ -50,7 +50,7 @@ Fill in two files:
 Follow the [lifecycle](#-lifecycle) below. Your AI squad knows the process — use the [Copilot prompts](#-copilot-prompts) to kick off each phase, and let the agents handle the structure while you handle the thinking.
 
 <details>
-<summary>📖 More on accelerators and the plug-in pattern</summary>
+<summary>More on accelerators and the plug-in pattern</summary>
 
 Accelerators are self-contained packs that slot into the `accelerators/` directory. Each pack can include notebooks, sample datasets, provisioning scripts, and architecture scaffolds. When a squad starts a hackathon, they pick the accelerator that matches the customer's industry — manufacturing, energy, financial services — and the build phase starts with running code instead of an empty notebook.
 
@@ -66,13 +66,13 @@ This is what makes Hackathon Squad different. You don't just get files — you g
 
 ### The Team
 
-| | Name | Role | What they do | Charter |
-|---|------|------|-------------|---------|
-| 🎯 | **Jared** | Facilitator | Runs ideation, captures use cases as structured briefs, enforces time-boxes and scope gates | [charter](.squad/agents/jared/charter.md) |
-| 🏗️ | **Gilfoyle** | Architect | Scores feasibility across 6 dimensions, sketches architecture (Mermaid), makes build/no-build calls | [charter](.squad/agents/gilfoyle/charter.md) |
-| ⚡ | **Richard** | Builder | Executes the PoC — notebooks, pipelines, APIs. Builds within the scoped architecture, nothing more | [charter](.squad/agents/richard/charter.md) |
-| 🔧 | **Dinesh** | Data Wrangler | Sources and shapes data _ahead_ of the build. Creates simulators when customer data isn't available | [charter](.squad/agents/dinesh/charter.md) |
-| 🎤 | **Erlich** | Demo Crafter | Turns a working PoC into a 5-minute story: Problem → Solution → Live Demo → Impact → The Ask | [charter](.squad/agents/erlich/charter.md) |
+| Name | Role | What they do | Charter |
+|------|------|-------------|---------|
+| **Jared** | Facilitator | Runs ideation, captures use cases as structured briefs, enforces time-boxes and scope gates | [charter](.squad/agents/jared/charter.md) |
+| **Gilfoyle** | Architect | Scores feasibility across 6 dimensions, sketches architecture (Mermaid), makes build/no-build calls | [charter](.squad/agents/gilfoyle/charter.md) |
+| **Richard** | Builder | Executes the PoC — notebooks, pipelines, APIs. Builds within the scoped architecture, nothing more | [charter](.squad/agents/richard/charter.md) |
+| **Dinesh** | Data Wrangler | Sources and shapes data _ahead_ of the build. Creates simulators when customer data isn't available | [charter](.squad/agents/dinesh/charter.md) |
+| **Erlich** | Demo Crafter | Turns a working PoC into a 5-minute story: Problem → Solution → Live Demo → Impact → The Ask | [charter](.squad/agents/erlich/charter.md) |
 
 Plus **Scribe** (session logging) and **@copilot** (general assist) in supporting roles.
 
@@ -116,7 +116,7 @@ The whole squad also shares project-wide context via [`.github/copilot-instructi
 
 ---
 
-## 🔄 Lifecycle
+## Lifecycle
 
 ```mermaid
 ---
@@ -215,7 +215,7 @@ Retrospective, knowledge capture, and handoff. Nothing evaporates.
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 | Section | What's inside |
 |---------|---------------|
@@ -226,7 +226,7 @@ Retrospective, knowledge capture, and handoff. Nothing evaporates.
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 | Directory | Purpose |
 |-----------|---------|
