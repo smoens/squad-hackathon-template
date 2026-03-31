@@ -19,11 +19,14 @@
 
 📦 Mel · 🔬 Caitlyn · 🏗️ Jayce · 🎨 Jinx · ⚙️ Silco
 
-<sub>Crafted with creative energy and a touch of hextech.</sub>
+<sub>Crafted with creative energy and a touch of hextech.</sub>  
+<sub>Built on the foundation laid by [Brady Gaster](https://github.com/bradygaster/squad) and [Tamir Dresher](https://tamirdresher.github.io/blog/). <br/>The original spark for AI-powered hackathon squads came from [Stacey Mulcahy](https://www.thebitchwhocodes.com/)</sub>
 
 <br>
 
 </div>
+
+*Disclaimer: This was a fun side-project for quickly testing [Squad](https://github.com/bradygaster/squad) in the wild. It's opinionated, evolving, and almost entirely AI-assembled. Tweak it, break it, make it yours,  but if your hackathon goes sideways, that's between you and your coffee supply. No warranties, no refunds, no incident reports accepted.*
 
 ---
 
@@ -34,7 +37,7 @@
 | **1** | Kick off | Tell Jared your company name: *"Jared, let's set up a hackathon for Contoso"* — he'll research the customer, fill your brief, and generate conversation starters |
 | **2** | Ideate | *"Jared, let's brainstorm"* — he'll facilitate use case ideation, score feasibility, and help you pick what to build |
 | **3** | Build + Demo | The squad takes it from here — Gilfoyle architects, Richard builds, Dinesh wrangles data, Erlich crafts the demo |
-| **4** | Hand it off | Fill [`HANDOFF.md`](HANDOFF.md) and send it to the customer's boss |
+| **4** | Hand it off | Fill [`HANDOFF.md`](HANDOFF.md) — a deliverable your customer can act on immediately |
 
 > 💡 **First time?** Start with the [Start Here guide](playbook/start-here.md) — it walks you through everything.
 
@@ -154,6 +157,8 @@ For specific structured outputs, prompts in `.github/prompts/` give you a one-sh
 
 - **Working PoCs** — not slides, code that runs
 - **A rehearsed, timed demo** your customer will remember
-- **A handoff doc** ([HANDOFF.md](HANDOFF.md)) with concrete next steps their boss will actually read
+- **A handoff doc** ([HANDOFF.md](HANDOFF.md)) with concrete next steps your customer can greenlight immediately
 - **Extracted patterns** ([RETRO.md](RETRO.md)) that feed the next hackathon
+
+
 
