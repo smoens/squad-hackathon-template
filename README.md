@@ -20,7 +20,7 @@
 📦 Mel · 🔬 Caitlyn · 🏗️ Jayce · 🎨 Jinx · ⚙️ Silco
 
 <sub>Crafted with creative energy and a touch of hextech.</sub>  
-<sub>Built on the foundation laid by [Brady Gaster](https://github.com/bradygaster/squad) and [Tamir Dresher](https://tamirdresher.github.io/blog/). <br/>The original spark for AI-powered hackathon squads came from [Stacey Mulcahy](https://www.thebitchwhocodes.com/)</sub>
+<sub>Built on the foundation laid by [Brady Gaster](https://github.com/bradygaster/squad) and [Tamir Dresher](https://tamirdresher.github.io/blog/). <br/>The original spark for AI-powered hackathon squads came from [Stacey Mulcahy](https://www.thebitchwhocodes.com/) <br/>and the encouragement of Alexandria.</sub>
 
 <br>
 
