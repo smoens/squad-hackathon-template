@@ -34,7 +34,7 @@
 
 | Step | What | How |
 |:----:|------|-----|
-| **1** | Kick off | Tell Jared your company name: *"Jared, let's set up a hackathon for Contoso"* — he'll research the customer, fill your brief, and generate conversation starters |
+| **1** | Kick off | Tell Jared your company name: *"Jared, let's set up a hackathon for Zava"* — he'll research the customer, fill your brief, and generate conversation starters |
 | **2** | Ideate | *"Jared, let's brainstorm"* — he'll facilitate use case ideation, score feasibility, and help you pick what to build |
 | **3** | Build + Demo | The squad takes it from here — Gilfoyle architects, Richard builds, Dinesh wrangles data, Erlich crafts the demo |
 | **4** | Hand it off | Fill [`HANDOFF.md`](HANDOFF.md) — a deliverable your customer can act on immediately |
