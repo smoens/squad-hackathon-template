@@ -13,7 +13,7 @@ Read these files:
 - `.hackathon/config.json` — customer, industry, engagement context
 - `BRIEF.md` — customer business context, goals, tech landscape
 - `use-cases/_template.md` — the full use case document format
-- `templates/use-case-canvas.md` — the quick canvas format
+- `playbook/use-case-canvas.md` — the quick canvas format
 
 ## Input
 

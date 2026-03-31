@@ -1,84 +1,98 @@
-← [README](README.md) | 📋 Formation Phase
+# 📋 Customer Engagement Brief
 
-# Customer Engagement Brief
+> This is your hackathon's foundation. The sharper this brief, the faster Day 1 starts.
+> Fill it honestly — gaps here become blockers later. If you don't know something, say so.
+>
+> 💡 **Shortcut:** Use the `ideation` Copilot prompt with your customer's name to auto-generate a draft.
 
-## Engagement Details
+---
+
+## Quick Start (fill these and you can run ideation)
 
 | Field | Value |
 |-------|-------|
-| **Customer** | [FILL] |
-| **Industry** | [FILL] |
-| **Date** | [FILL] |
-| **Location** | [FILL] (on-site / remote / hybrid) |
-| **Format** | 1-day / 2-day |
+| **Customer** | *Who are you building for?* |
+| **Industry** | *Their world — manufacturing, energy, finance...* |
+| **Date** | *When does the clock start?* |
+| **Format** | *1-day sprint or 2-day deep dive?* |
 
-## Business Context
+### Conversation Starters (3-5 hypotheses)
 
-*What does this customer do? What's their market position? What's driving this engagement?*
+> These aren't commitments — they're starting points. Expect them to evolve during ideation.
 
-[FILL — 2-3 paragraphs]
+1. **What if...** *[one sentence describing a provocative possibility]*
+2. **What if...** *[one sentence]*
+3. **What if...** *[one sentence]*
 
-## Hackathon Goals
+---
 
-*What does the customer want to achieve? What does success look like at the end of the day(s)?*
+## Full Brief (fill before Day 1 if you can)
 
-- [ ] Goal 1: [FILL]
-- [ ] Goal 2: [FILL]
-- [ ] Goal 3: [FILL]
+### Business Context
 
-## Attendees
+*What does this customer do? What keeps their leadership up at night?*
 
-### Customer Side
+> [2-3 paragraphs — their market, their pressures, why they said yes to a hackathon]
 
-| Name | Role | Focus Area |
-|------|------|------------|
-| [FILL] | [FILL] | [FILL] |
-| [FILL] | [FILL] | [FILL] |
+### Goals
 
-### Squad
+*If the hackathon goes perfectly, what does the customer walk away saying?*
+
+- [ ] *[Outcome that would make them call their boss]*
+- [ ] *[Outcome that changes a daily workflow]*
+- [ ] *[Outcome that opens a follow-up conversation]*
+
+### Attendees
+
+#### Customer Side
+
+*Who's in the room? Who's the decision-maker? Who feels the pain daily?*
+
+| Name | Role | What they care about |
+|------|------|---------------------|
+| *[Name]* | *[Their title]* | *[What would make their day?]* |
+| *[Name]* | *[Their title]* | *[What problem do they live with?]* |
+
+#### Squad
 
 | Name | Role | Responsibilities |
 |------|------|-----------------|
-| [FILL] | Facilitator | Agenda, time-boxing, customer alignment |
-| [FILL] | Architect | Solution design, architecture decisions |
-| [FILL] | Builder | PoC implementation |
-| [FILL] | Data Wrangler | Data access, prep, pipelines |
-| [FILL] | Demo Crafter | Narratives, visualizations, handoff doc |
+| | Facilitator | Agenda, time-boxing, customer alignment |
+| | Architect | Solution design, architecture decisions |
+| | Builder | PoC implementation |
+| | Data Wrangler | Data access, prep, pipelines |
+| | Demo Crafter | Narratives, visualizations, handoff doc |
 
-## Technical Landscape
+### Technical Landscape
 
-### Current Tech Stack
+*What cloud? What data platform? What's in production today?*
 
-- **Cloud:** [FILL]
-- **Data Platform:** [FILL]
-- **Applications:** [FILL]
-- **Identity/Auth:** [FILL]
+- **Cloud:** *[Azure, AWS, GCP, on-prem, hybrid?]*
+- **Data Platform:** *[SQL, Databricks, Fabric, Snowflake...?]*
+- **Applications:** *[What do they run day-to-day?]*
+- **Identity/Auth:** *[Entra ID, Okta, on-prem AD?]*
 
-### Data Sources Available
+### Data Sources
+
+*What data can we touch? What's behind a firewall?*
 
 | Source | Type | Access Method | Sample Available? |
-|--------|------|---------------|-------------------|
-| [FILL] | [FILL] | [FILL] | Yes / No |
+|--------|------|---------------|:-:|
+| *[Describe the data]* | *[DB / API / File / Stream]* | *[Direct / VPN / Export]* | Yes / No |
 
-## Constraints
+### Constraints
 
-- **Time:** [FILL — e.g., "Hard stop at 5pm both days"]
-- **Compliance:** [FILL — e.g., "No customer data leaves their tenant"]
-- **Data Sensitivity:** [FILL — e.g., "PII present, anonymization required"]
-- **Network/Access:** [FILL — e.g., "VPN required, guest wifi only"]
-- **Other:** [FILL]
+*Hard stops, compliance rules, network limitations — the stuff that kills hackathons if you discover it on Day 1.*
 
-## Pre-Identified Use Case Hypotheses
+- **Time:** *[Hard stop at 5pm? Lunch break sacred? Customer leaves early?]*
+- **Compliance:** *[Data residency? No customer data leaves their tenant?]*
+- **Data Sensitivity:** *[PII present? Anonymization required?]*
+- **Network/Access:** *[VPN? Guest wifi only? Bring your own device?]*
+- **Other:** *[Anything else that could block you]*
 
-*Starting hypotheses to explore — expect these to evolve during ideation.*
+### Pre-Hackathon Notes
 
-1. **[Use Case Name]** — [1-sentence description]
-2. **[Use Case Name]** — [1-sentence description]
-3. **[Use Case Name]** — [1-sentence description]
-4. **[Use Case Name]** — [1-sentence description]
-5. **[Use Case Name]** — [1-sentence description]
-
-## Pre-Hackathon Notes
+*Anything else the squad should know before Day 1.*
 
 ---
 
@@ -86,12 +100,8 @@
 
 | Document | Purpose |
 |----------|---------|
-| [Formation Checklist](.hackathon/checklist-formation.md) | Pre-hackathon preparation checklist |
+| [Formation Checklist](playbook/checklists.md) | Pre-hackathon preparation checklist |
 | [Config](.hackathon/config.json) | Engagement configuration |
-| [Use Case Canvas](templates/use-case-canvas.md) | Ideation brainstorming template |
-| [Feasibility Scorecard](templates/feasibility-scorecard.md) | Use case scoring framework |
+| [Use Case Canvas](playbook/use-case-canvas.md) | Ideation brainstorming template |
+| [Feasibility Scorecard](playbook/feasibility-scorecard.md) | Use case scoring framework |
 | → [Use Case Template](use-cases/_template.md) | **Next:** Define your use cases |
-
-*Any additional context, links, or prep notes.*
-
-[FILL]

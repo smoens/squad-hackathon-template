@@ -1,68 +1,103 @@
-← [README](README.md) | ← [Handoff](HANDOFF.md) | 🔄 Wind-Down Phase
+# 🔄 Hackathon Retrospective — [Customer Name]
 
-# Hackathon Retrospective — [Customer Name]
+> You just shipped a hackathon. Before you scatter — capture what happened while it's fresh.
+> This isn't a checkbox exercise. The patterns you write down here feed the next squad's success.
 
-**Date:** [FILL]
-**Facilitator:** [FILL]
-
----
-
-## What Worked Well
-
-- [FILL]
-- [FILL]
-- [FILL]
-
-## What Didn't Work
-
-- [FILL]
-- [FILL]
-- [FILL]
-
-## What to Change for Next Hackathon
-
-- [FILL]
-- [FILL]
-- [FILL]
+**Date:** [When did this happen?]
+**Facilitator:** [Who ran the retro?]
 
 ---
 
-## Patterns Discovered
+## 🏆 Wins — What We're Proud Of
 
-*Reusable patterns worth promoting to the HQ knowledge base.*
+*What moments made the room light up? When did you think "yes, this is working"?*
+
+-
+-
+-
+
+## 😤 Friction — What Slowed Us Down
+
+*Where did the gears grind? Data problems? Scope surprises? Tool failures?*
+
+-
+-
+-
+
+## 🔮 Next Time — What We'd Do Differently
+
+*If you could send a note back in time to formation-phase you, what would it say?*
+
+-
+-
+-
+
+---
+
+## ⭐ MVP Moment
+
+*The ONE standout moment — the demo that landed, the hack that saved 2 hours, the customer's face when they saw their data on screen.*
+
+> [Describe the moment — this is what gets retold]
+
+---
+
+## 🎖️ Team Highlights
+
+*Quick shout-outs. Who did something that made the whole hackathon better?*
+
+| Who | What they did |
+|-----|--------------|
+| | |
+| | |
+
+---
+
+## 📊 Patterns Discovered
+
+*Reusable patterns worth bringing back to HQ.*
 
 | Pattern | Description | Applicable To | Promote to HQ? |
-|---------|-------------|---------------|-----------------|
-| [FILL] | [FILL] | [FILL] | Yes / No |
-| [FILL] | [FILL] | [FILL] | Yes / No |
+|---------|-------------|---------------|:-:|
+| | | | Yes / No |
+| | | | Yes / No |
 
-## Code Accelerators Created
+## 🔧 Accelerators Created
 
-*Reusable notebooks, scripts, or modules worth extracting for the template library.*
+*Reusable code, notebooks, or scripts worth extracting.*
 
-| Artifact | Description | Location | Extract to Template? |
-|----------|-------------|----------|---------------------|
-| [FILL] | [FILL] | [FILL] | Yes / No |
-| [FILL] | [FILL] | [FILL] | Yes / No |
-
----
-
-## Customer Satisfaction Signal
-
-**Rating:** 🔥 Hot / 🟡 Warm / 🧊 Cold
-
-**Evidence:**
-- [FILL — What did the customer say? What was their energy level? Did they commit to follow-ups?]
-
-**Likelihood of follow-up engagement:** High / Medium / Low
+| Artifact | Description | Location | Extract? |
+|----------|-------------|----------|:-:|
+| | | | Yes / No |
+| | | | Yes / No |
 
 ---
 
-## Action Items from Retro
+## 🌡️ Customer Signal
 
-| Action | Owner | Due |
-|--------|-------|-----|
-| [FILL] | [FILL] | [FILL] |
+**Vibe check:** 🔥 Hot / 🟡 Warm / 🧊 Cold
+
+**Evidence:** *What did the customer say? What was their body language? Did they commit to next steps?*
+
+**Follow-up likelihood:** High / Medium / Low
+
+---
+
+## 📖 Story Bank
+
+*The stories that'll be retold. Capture them now before they fade.*
+
+**The funniest moment:**
+>
+
+**The biggest surprise:**
+>
+
+**The best customer quote:**
+>
+
+**The moment it "clicked":**
+>
 
 ---
 
@@ -70,6 +105,6 @@
 
 | Document | Purpose |
 |----------|---------|
-| [Knowledge Extraction Checklist](.hackathon/checklist-knowledge-extract.md) | T+1 to T+5 checklist |
-| [Wind-Down Checklist](.hackathon/checklist-winddown.md) | Post-hackathon checklist |
+| [Knowledge Extraction Checklist](playbook/checklists.md) | T+1 to T+5 checklist |
+| [Wind-Down Checklist](playbook/checklists.md) | Post-hackathon checklist |
 | [Accelerator Packs](accelerators/README.md) | Promote patterns discovered here |

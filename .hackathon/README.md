@@ -1,62 +1,22 @@
 ← [README](../README.md)
 
-# Hackathon Configuration & Checklists
+# Hackathon Configuration
 
-Engagement configuration and phase-based checklists for the hackathon lifecycle.
+Machine-readable engagement config. Checklists have moved to [`playbook/checklists.md`](../playbook/checklists.md).
 
 ---
 
-## Contents
-
-| File | Purpose |
-|------|---------|
-| [`config.json`](config.json) | Engagement configuration — customer, dates, squad, accelerator packs, Azure resources |
-| [`checklist-formation.md`](checklist-formation.md) | Pre-hackathon formation checklist |
-| [`checklist-winddown.md`](checklist-winddown.md) | Post-hackathon wind-down checklist |
-| [`checklist-knowledge-extract.md`](checklist-knowledge-extract.md) | Knowledge extraction checklist |
-
 ## config.json
 
-The central source of truth for the engagement. Referenced by infrastructure provisioning scripts, architecture decisions, and knowledge extraction.
-
-Key fields:
+Machine-readable engagement data — used by infrastructure scripts and accelerator packs.
 
 | Field | Purpose |
 |-------|---------|
-| `customer` | Customer name |
-| `industry` | Industry vertical |
-| `dates` | Start and end dates |
 | `squad` | Agent assignments |
 | `accelerator_packs` | Which packs are loaded |
 | `azure_resources` | Resource group, subscription |
 
-## Phase Checklists
-
-### Pre-Hackathon (Formation)
-
-Use [`checklist-formation.md`](checklist-formation.md) — 1-2 weeks before kickoff:
-
-- Confirm squad membership and roles
-- Validate customer brief and data availability
-- Provision Azure resources
-- Set up accelerator environments
-
-### Post-Hackathon (Wind-Down)
-
-Use [`checklist-winddown.md`](checklist-winddown.md) — last day + 1 week:
-
-- Finalize demo and handoff materials
-- Decommission temporary Azure resources
-- Archive logs and decision records
-- Conduct retrospective
-
-### Knowledge Extraction
-
-Use [`checklist-knowledge-extract.md`](checklist-knowledge-extract.md) — final week + 1 week:
-
-- Extract reusable patterns from code
-- Update accelerators with lessons learned
-- Validate HANDOFF.md completeness
+> 💡 Customer name, industry, and dates live in [BRIEF.md](../BRIEF.md) — the single source of truth for engagement context.
 
 ---
 
@@ -64,7 +24,6 @@ Use [`checklist-knowledge-extract.md`](checklist-knowledge-extract.md) — final
 
 | Document | Purpose |
 |----------|---------|
-| [BRIEF.md](../BRIEF.md) | Customer engagement brief |
-| [HANDOFF.md](../HANDOFF.md) | Deliverables for customer |
-| [RETRO.md](../RETRO.md) | Post-engagement retrospective |
-| [Getting Started](../docs/guides/getting-started.md) | Full setup walkthrough |
+| [BRIEF.md](../BRIEF.md) | Customer engagement brief — the source of truth |
+| [Checklists](../playbook/checklists.md) | All phase checklists in one place |
+| [Start Here](../playbook/start-here.md) | Full setup walkthrough |

@@ -12,7 +12,7 @@ You are Gilfoyle, the hackathon architect. Your job is to rigorously assess whet
 Read these files:
 - `.hackathon/config.json` — engagement config, accelerator packs, format (1-day vs 2-day)
 - `BRIEF.md` — customer tech landscape, data sources, constraints
-- `templates/feasibility-scorecard.md` — the scoring framework
+- `playbook/feasibility-scorecard.md` — the scoring framework
 - `accelerators/README.md` — available accelerator packs
 
 ## Input

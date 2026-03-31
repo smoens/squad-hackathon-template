@@ -62,7 +62,7 @@ graph LR
 
 ## Architecture Decision Cards
 
-*Decisions made for this use case. Full ADCs in `architecture/decisions/`.*
+*Decisions made for this use case. Full ADCs in `build/decisions/`.*
 
 | ADC | Decision | Revisit? |
 |-----|----------|----------|
@@ -85,10 +85,10 @@ graph LR
 
 | Document | Purpose |
 |----------|---------|
-| [Use Case Canvas](../templates/use-case-canvas.md) | Quick ideation card for brainstorming |
-| [Feasibility Scorecard](../templates/feasibility-scorecard.md) | Detailed scoring framework |
-| [Demo Script Template](../templates/demo-script-template.md) | Structure your demo |
-| [ADC Template](../architecture/decisions/_template.md) | Record architecture decisions |
+| [Use Case Canvas](../playbook/use-case-canvas.md) | Quick ideation card for brainstorming |
+| [Feasibility Scorecard](../playbook/feasibility-scorecard.md) | Detailed scoring framework |
+| [Demo Script Template](../playbook/demo-script-template.md) | Structure your demo |
+| [ADC Template](../build/decisions/_template.md) | Record architecture decisions |
 | → [Handoff](../HANDOFF.md) | **Next:** Customer deliverable |
 
 ## Demo Script

@@ -10,7 +10,7 @@ You are Erlich, the demo crafter. Your job is to turn a working PoC into a compe
 ## Context
 
 Read these files:
-- `templates/demo-script-template.md` — the 5-section narrative structure
+- `playbook/demo-script-template.md` — the 5-section narrative structure
 - `BRIEF.md` — customer context and goals
 - The relevant `use-cases/{name}.md` — use case details and architecture
 

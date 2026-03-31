@@ -1,4 +1,4 @@
-← [README](../README.md) | 💡 Ideation Phase
+← [README](README.md) | 💡 Ideation Phase
 
 # Use Case Canvas
 

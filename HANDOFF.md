@@ -1,25 +1,28 @@
-← [README](README.md) | 🎤 Demo & Handoff Phase
+# 🎤 Hackathon Handoff — [Customer Name]
 
-# Hackathon Handoff — [Customer Name]
+> This is your victory lap document. You built working demos in [X] days — document it with the pride it deserves.
+> This goes to the customer's boss. Make it count.
 
-**Date:** [FILL]
-**Squad:** [FILL]
+**Date:** [When did this happen?]
+**Squad:** [Who was in the room?]
 
 ---
 
 ## Executive Summary
 
-[FILL — 1 paragraph summarizing what was accomplished, key outcomes, and recommended next steps. Written for a senior stakeholder who wasn't in the room.]
+*Write this for someone who wasn't in the room but needs to know why this matters. One paragraph. Lead with outcomes, not process.*
+
+> [What did we build? What did it prove? What should happen next?]
 
 ---
 
 ## Use Cases Delivered
 
 | # | Use Case | Status | Pattern / Accelerator | Demo-Ready? |
-|---|----------|--------|-----------------------|-------------|
-| 1 | [FILL] | ✅ Complete / 🟡 Partial / ❌ Deferred | [FILL] | Yes / No |
-| 2 | [FILL] | ✅ / 🟡 / ❌ | [FILL] | Yes / No |
-| 3 | [FILL] | ✅ / 🟡 / ❌ | [FILL] | Yes / No |
+|---|----------|--------|-----------------------|:-:|
+| 1 | | ✅ Complete / 🟡 Partial / ❌ Deferred | | Yes / No |
+| 2 | | ✅ / 🟡 / ❌ | | Yes / No |
+| 3 | | ✅ / 🟡 / ❌ | | Yes / No |
 
 ---
 
@@ -27,9 +30,11 @@
 
 ### UC-1: [Use Case Name]
 
-**Problem:** [What pain point does this address?]
+**The pain:** *[What hurts today? Use the customer's words.]*
 
-**Solution:** [What did we build? How does it work?]
+**What we built:** *[Plain English — what does it DO, not how was it built]*
+
+**The "aha" moment:** *[What made the room react during the demo?]*
 
 **Architecture:**
 
@@ -47,17 +52,19 @@ graph LR
 2. [Step 2]
 3. [Step 3]
 
-**Next Steps:**
-- [ ] [What needs to happen to move this forward]
-- [ ] [FILL]
+**What comes next:**
+- [ ] [The obvious next step — the one the customer is already nodding about]
+- [ ] [The infrastructure step — what needs to happen before production]
 
 ---
 
 ### UC-2: [Use Case Name]
 
-**Problem:** [FILL]
+**The pain:** *[What hurts today?]*
 
-**Solution:** [FILL]
+**What we built:** *[What does it do?]*
+
+**The "aha" moment:** *[What made the room react?]*
 
 **Architecture:**
 
@@ -70,8 +77,8 @@ graph LR
 1. [Step 1]
 2. [Step 2]
 
-**Next Steps:**
-- [ ] [FILL]
+**What comes next:**
+- [ ] [Next step]
 
 ---
 
@@ -81,27 +88,31 @@ graph LR
 
 ## Productionization Roadmap
 
-*What would it take to move these PoCs into production?*
+*What would it take to move these PoCs into production? Be honest — this builds trust.*
 
 | Aspect | Current (PoC) | Production Target | Effort Estimate |
 |--------|--------------|-------------------|-----------------|
-| Data pipeline | Manual / sample data | Automated, real-time | [FILL] |
-| Security | Demo credentials | Managed identity, RBAC | [FILL] |
-| Scalability | Single-user | Multi-tenant | [FILL] |
-| Monitoring | None | Full observability | [FILL] |
-| CI/CD | Manual deploy | Automated pipeline | [FILL] |
+| Data pipeline | Manual / sample data | Automated, real-time | |
+| Security | Demo credentials | Managed identity, RBAC | |
+| Scalability | Single-user | Multi-tenant | |
+| Monitoring | None | Full observability | |
+| CI/CD | Manual deploy | Automated pipeline | |
 
-**Recommended production timeline:** [FILL]
+**Recommended production timeline:** *[Be realistic — optimism here erodes trust]*
 
 ---
 
-## Follow-Up Actions
+## 🚀 Next Steps — The Momentum
+
+*This section should feel like a handshake, not homework. These are the actions that keep the energy alive.*
 
 | # | Action | Owner | Target Date | Status |
 |---|--------|-------|-------------|--------|
-| 1 | [FILL] | [FILL] | [FILL] | ⬜ Open |
-| 2 | [FILL] | [FILL] | [FILL] | ⬜ Open |
-| 3 | [FILL] | [FILL] | [FILL] | ⬜ Open |
+| 1 | | | | ⬜ Open |
+| 2 | | | | ⬜ Open |
+| 3 | | | | ⬜ Open |
+
+> 💡 **Pro tip:** Schedule the first follow-up before you leave the room. Momentum dies in inboxes.
 
 ---
 
@@ -109,24 +120,22 @@ graph LR
 
 ### Architecture Decisions Made
 
-*Decisions captured during the hackathon. See `architecture/decisions/` for full ADC records.*
-
 | Decision | Why | Revisit for Production? |
-|----------|-----|------------------------|
-| [FILL] | [FILL] | Yes / No |
-| [FILL] | [FILL] | Yes / No |
+|----------|-----|:-:|
+| | | Yes / No |
+| | | Yes / No |
 
 ### Data Sources Used
 
 | Source | Description | Access Method | Notes |
 |--------|-------------|---------------|-------|
-| [FILL] | [FILL] | [FILL] | [FILL] |
+| | | | |
 
 ### Azure Resources Provisioned
 
 | Resource | Type | Resource Group | Disposition |
 |----------|------|---------------|-------------|
-| [FILL] | [FILL] | [FILL] | Keep / Archive / Destroy |
+| | | | Keep / Archive / Destroy |
 
 ---
 
@@ -134,7 +143,7 @@ graph LR
 
 | Document | Purpose |
 |----------|---------|
-| [Demo Script Template](templates/demo-script-template.md) | 5-part demo narrative structure |
-| [Architecture Decisions](architecture/decisions/_template.md) | ADC template |
-| [Wind-Down Checklist](.hackathon/checklist-winddown.md) | Post-hackathon checklist |
+| [Demo Script Template](playbook/demo-script-template.md) | 5-part demo narrative structure |
+| [Architecture Decisions](build/decisions/_template.md) | ADC template |
+| [Wind-Down Checklist](playbook/checklists.md) | Post-hackathon checklist |
 | → [Retrospective](RETRO.md) | **Next:** Team retrospective & knowledge extraction |

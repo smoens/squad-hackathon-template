@@ -37,5 +37,5 @@ Each accelerator pack lives in its own directory under `accelerators/`. Packs ar
 | Document | Purpose |
 |----------|--------|
 | [Brief](../BRIEF.md) | Customer tech landscape drives pack selection |
-| [Formation Checklist](../.hackathon/checklist-formation.md) | Select packs during formation |
-| [Knowledge Extraction](../.hackathon/checklist-knowledge-extract.md) | Promote new packs post-hackathon |
+| [Formation Checklist](../playbook/checklists.md) | Select packs during formation |
+| [Knowledge Extraction](../playbook/checklists.md) | Promote new packs post-hackathon |

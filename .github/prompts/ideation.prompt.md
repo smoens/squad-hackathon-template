@@ -28,7 +28,7 @@ List 8-12 candidate use cases. For each, write a one-sentence problem statement.
 
 ### Step 2: Generate Use Case Canvases
 
-For the top 5-6 candidates, fill out a Use Case Canvas following the format in `templates/use-case-canvas.md`:
+For the top 5-6 candidates, fill out a Use Case Canvas following the format in `playbook/use-case-canvas.md`:
 - Problem statement (1 sentence)
 - Who is affected (persona + scale)
 - Current cost/time (quantified)
@@ -38,7 +38,7 @@ For the top 5-6 candidates, fill out a Use Case Canvas following the format in `
 
 ### Step 3: Score Feasibility
 
-For each canvas, score across the 6 dimensions from `templates/feasibility-scorecard.md`:
+For each canvas, score across the 6 dimensions from `playbook/feasibility-scorecard.md`:
 
 | Dimension | 1 (Green) | 2 (Yellow) | 3 (Red) |
 |-----------|-----------|------------|---------|

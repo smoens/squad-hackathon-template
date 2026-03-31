@@ -1,11 +1,4 @@
 {
-  "customer": "[FILL]",
-  "industry": "[FILL]",
-  "dates": {
-    "start": "[FILL]",
-    "end": "[FILL]"
-  },
-  "format": "1-day | 2-day",
   "squad": {
     "facilitator": "Jared",
     "architect": "Gilfoyle",

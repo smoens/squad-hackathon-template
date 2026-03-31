@@ -40,10 +40,10 @@ use-cases/
 
 ## Getting Started
 
-1. **Brainstorm phase:** Use [`templates/use-case-canvas.md`](../templates/use-case-canvas.md) to structure ideas
-2. **Scoring phase:** Use [`templates/feasibility-scorecard.md`](../templates/feasibility-scorecard.md) to evaluate
+1. **Brainstorm phase:** Use [`playbook/use-case-canvas.md`](../playbook/use-case-canvas.md) to structure ideas
+2. **Scoring phase:** Use [`playbook/feasibility-scorecard.md`](../playbook/feasibility-scorecard.md) to evaluate
 3. **Build phase:** Create a folder, implement the scoped slice
-4. **Demo phase:** Use [`templates/demo-script-template.md`](../templates/demo-script-template.md) to structure the presentation
+4. **Demo phase:** Use [`playbook/demo-script-template.md`](../playbook/demo-script-template.md) to structure the presentation
 
 ---
 
@@ -51,7 +51,5 @@ use-cases/
 
 | Document | Purpose |
 |----------|---------|
-| [Use-Case-Driven Development](../docs/concepts/use-case-driven-development.md) | Core methodology behind the use case approach |
-| [Use Case Prioritization](../docs/concepts/use-case-prioritization.md) | How to rank and select use cases |
-| [Templates](../templates/) | Canvas, scorecard, and demo script templates |
-| [Running Ideation](../docs/guides/running-ideation.md) | Facilitation guide for the ideation session |
+| [Playbook](../playbook/) | Facilitation guides, canvases, scorecards, and demo templates |
+| [Ideation Cheat Sheet](../playbook/ideation-cheat-sheet.md) | Facilitation guide for the ideation session |

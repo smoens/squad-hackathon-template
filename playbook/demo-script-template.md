@@ -1,4 +1,4 @@
-← [README](../README.md) | 🎤 Demo Phase
+← [README](README.md) | 🎤 Demo Phase
 
 # Demo Script — [Use Case Name]
 
@@ -60,4 +60,4 @@ graph LR
 |----------|--------|
 | [Handoff](../HANDOFF.md) | Customer deliverable (includes demo walkthrough) |
 | [Use Case Template](../use-cases/_template.md) | Source use case details |
-| [Wind-Down Checklist](../.hackathon/checklist-winddown.md) | Post-demo tasks |
+| [Wind-Down Checklist](checklists.md) | Post-demo tasks |

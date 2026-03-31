@@ -47,5 +47,5 @@ Scribe notes preserve the **reasoning** behind decisions — why we chose A over
 | Document | Purpose |
 |----------|---------|
 | [RETRO.md](../RETRO.md) | Post-engagement retrospective (fed by these logs) |
-| [architecture/](../architecture/) | Formal architecture decision records |
+| [build/](../build/) | Architecture decisions and build artifacts |
 | [.hackathon/](../.hackathon/) | Configuration and phase checklists |

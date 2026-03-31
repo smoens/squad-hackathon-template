@@ -58,12 +58,12 @@ Knowledge for running business hackathons — phase transitions, time-boxing, sc
 **Automatic transition** — no gate. After demos are presented:
 1. Capture audience reactions and questions immediately
 2. Start `HANDOFF.md` while memory is fresh
-3. `.hackathon/checklist-winddown.md` becomes the driver
+3. `playbook/checklists.md` becomes the driver
 
 ### Wind-Down → Knowledge Capture
 
 **Trigger:** Within 24 hours of hackathon end.
-**Deadline:** 5 business days (`.hackathon/checklist-knowledge-extract.md`).
+**Deadline:** 5 business days (`playbook/checklists.md` — Knowledge Extraction section).
 **Critical:** If knowledge capture doesn't happen in 5 days, it won't happen at all.
 
 ---
@@ -199,12 +199,11 @@ During Build phase, when things aren't working:
 ### During Hackathon
 
 - Every completed PoC → update `HANDOFF.md` immediately (don't wait for wind-down)
-- Architecture decisions → `architecture/decisions/` as ADCs
+- Architecture decisions → `build/decisions/` as ADCs
 - Scribe captures continuously
 
 ### Post-Hackathon
 
 1. `HANDOFF.md` — Executive summary, use case details, architecture, next steps. **This goes to the customer.**
 2. `RETRO.md` — What worked, what didn't, what to improve.
-3. `.hackathon/checklist-winddown.md` — Tactical wrap-up (code committed, resources dispositioned).
-4. `.hackathon/checklist-knowledge-extract.md` — Strategic capture (patterns for HQ, template improvements).
+3. `playbook/checklists.md` — Tactical wrap-up (code committed, resources dispositioned) and strategic knowledge capture.

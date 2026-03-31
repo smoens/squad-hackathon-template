@@ -10,20 +10,18 @@ This is a **battle-tested framework for business hackathons**. You stamp a new r
 
 ## Engagement Context
 
-**Always read `.hackathon/config.json` first** to understand the current engagement:
+**Always read `BRIEF.md` first** for customer context (who, what industry, dates, format). Then read `.hackathon/config.json` for squad configuration and Azure resources:
 
 ```json
 {
-  "customer": "...",
-  "industry": "...",
-  "dates": { "start": "...", "end": "..." },
-  "format": "1-day | 2-day",
+  "squad": { "hq_repo": "..." },
   "accelerator_packs": ["..."],
-  "azure_resources": { "resource_group": "...", "subscription": "..." }
+  "azure_resources": { "resource_group": "...", "subscription": "..." },
+  "hq_repo": "..."
 }
 ```
 
-If `customer` is `[FILL]`, this repo hasn't been configured for an engagement yet — you're working on the template itself.
+If `BRIEF.md` still has `[FILL]` markers, this repo hasn't been configured for an engagement yet — you're working on the template itself.
 
 ---
 
@@ -34,27 +32,34 @@ If `customer` is `[FILL]`, this repo hasn't been configured for an engagement ye
 ├── BRIEF.md                          # Customer engagement brief (goals, scope, attendees, constraints)
 ├── HANDOFF.md                        # Customer deliverable (completed post-hackathon)
 ├── RETRO.md                          # Retrospective (completed post-hackathon)
+├── README.md                         # Repo overview
 ├── .hackathon/
-│   ├── config.json                   # ⭐ Engagement config — READ THIS FIRST
-│   ├── checklist-formation.md        # Pre-hackathon setup checklist
-│   ├── checklist-winddown.md         # Post-hackathon wrap-up checklist
-│   └── checklist-knowledge-extract.md # Knowledge capture checklist (T+1 to T+5)
-├── templates/
+│   ├── config.json                   # ⭐ Squad config & Azure resources
+│   └── README.md                     # Hackathon config docs
+├── playbook/
+│   ├── start-here.md                 # Orientation — read this on Day 1
+│   ├── ideation-cheat-sheet.md       # Quick brainstorm techniques
+│   ├── demo-crafting.md              # How to build compelling demos
+│   ├── checklists.md                 # Formation, wind-down & knowledge-extract checklists
+│   ├── atmosphere-and-energy.md      # Tips for energy, music, breaks
+│   ├── what-if-cards.md              # Scenario prompts for creativity
 │   ├── use-case-canvas.md            # Quick ideation card (one per candidate use case)
 │   ├── feasibility-scorecard.md      # 6-dimension scoring framework
 │   └── demo-script-template.md       # 5-section demo narrative structure
+├── build/
+│   ├── README.md                     # Build-phase guidance
+│   ├── decisions/
+│   │   └── _template.md              # Architecture Decision Card (ADC) template
+│   ├── data/.gitkeep                 # Sample/synthetic datasets per use case
+│   ├── notebooks/.gitkeep            # Notebooks created during build
+│   └── scripts/.gitkeep              # Utility scripts created during build
 ├── use-cases/
 │   ├── _template.md                  # Full use case document template
 │   └── {uc-name}.md                  # One file per selected use case
-├── architecture/
-│   └── decisions/
-│       └── _template.md              # Architecture Decision Card (ADC) template
 ├── accelerators/
 │   ├── README.md                     # How accelerator packs work
 │   ├── _template/                    # Template for creating new packs
 │   └── {pack-name}/                  # Tech-specific accelerator packs
-├── data/                             # Sample/synthetic datasets per use case
-├── infrastructure/                   # Terraform/Bicep for Azure resource provisioning
 ├── log/                              # Engagement session logs
 ├── .squad/                           # Squad AI team configuration
 │   ├── team.md                       # Roster: who does what
@@ -71,19 +76,21 @@ If `customer` is `[FILL]`, this repo hasn't been configured for an engagement ye
 
 | You want to... | Go to... |
 |----------------|----------|
+| Get started | `playbook/start-here.md` |
 | Understand the customer | `BRIEF.md` |
 | See engagement config | `.hackathon/config.json` |
-| Brainstorm use cases | `templates/use-case-canvas.md` |
-| Score feasibility | `templates/feasibility-scorecard.md` |
+| Run formation | `playbook/checklists.md` |
+| Brainstorm use cases | `playbook/use-case-canvas.md` |
+| Score feasibility | `playbook/feasibility-scorecard.md` |
 | Write a use case doc | `use-cases/_template.md` → copy to `use-cases/{name}.md` |
-| Record architecture decisions | `architecture/decisions/_template.md` |
+| Record architecture decisions | `build/decisions/_template.md` |
 | Build a PoC | `use-cases/{name}/` + `accelerators/{pack}/` |
-| Prepare a demo | `templates/demo-script-template.md` |
+| Prepare a demo | `playbook/demo-script-template.md` |
 | Write the customer deliverable | `HANDOFF.md` |
 | Run a retrospective | `RETRO.md` |
 | Add tech-specific patterns | `accelerators/` |
-| Provision Azure resources | `infrastructure/` |
-| Store sample data | `data/` |
+| Provision Azure resources | `build/` |
+| Store sample data | `build/data/` |
 
 ---
 
@@ -131,31 +138,31 @@ The hackathon runs in 5 stages. The current phase determines what artifacts you 
 
 **Goal:** Prepare everything before Day 1.
 **Produce:** Completed `BRIEF.md`, configured `.hackathon/config.json`, selected accelerator packs, staged data.
-**Checklist:** `.hackathon/checklist-formation.md`
+**Checklist:** `playbook/checklists.md`
 
 ### 2. Ideation (Day 1 Morning)
 
 **Goal:** Brainstorm use cases and select which to build.
-**Produce:** Filled use case canvases (`templates/use-case-canvas.md`), feasibility scorecards, ranked priorities.
-**Key rule:** Score ALL candidate use cases before committing to any. Use the 6-dimension scoring in `templates/feasibility-scorecard.md`.
+**Produce:** Filled use case canvases (`playbook/use-case-canvas.md`), feasibility scorecards, ranked priorities.
+**Key rule:** Score ALL candidate use cases before committing to any. Use the 6-dimension scoring in `playbook/feasibility-scorecard.md`.
 
 ### 3. Build (Day 1 Afternoon – Day 2)
 
 **Goal:** Build working PoCs for selected use cases.
-**Produce:** Code in `use-cases/{name}/`, architecture decisions in `architecture/decisions/`, data pipelines.
+**Produce:** Code in `use-cases/{name}/`, architecture decisions in `build/decisions/`, data pipelines.
 **Key rule:** Time-box aggressively. If data is blocked, Dinesh creates simulators. If architecture is unclear, Gilfoyle decides immediately.
 
 ### 4. Demo (Final Session)
 
 **Goal:** Present working demos to customer stakeholders.
-**Produce:** Demo scripts (`templates/demo-script-template.md`), completed `HANDOFF.md`.
+**Produce:** Demo scripts (`playbook/demo-script-template.md`), completed `HANDOFF.md`.
 **Key rule:** Follow the 5-section structure: Problem (30s) → Solution (60s) → Live Demo (2-3min) → Impact (30s) → The Ask (30s).
 
 ### 5. Wind-Down (Post-Hackathon)
 
 **Goal:** Capture knowledge and close the engagement.
 **Produce:** `RETRO.md`, knowledge extraction, template improvements.
-**Checklists:** `.hackathon/checklist-winddown.md` → `.hackathon/checklist-knowledge-extract.md`
+**Checklists:** `playbook/checklists.md`
 
 ---
 
@@ -238,14 +245,14 @@ accelerators/{pack-name}/
 
 ### Scripts
 
-- Infrastructure provisioning goes in `infrastructure/`
+- Infrastructure provisioning goes in `build/`
 - Utility scripts go in the accelerator pack's `scripts/` directory
 - Use `#!/usr/bin/env python3` or equivalent shebang
 - Include a docstring at the top explaining purpose and usage
 
 ### Terraform / Bicep
 
-- Place in `infrastructure/` at repo root or within accelerator packs
+- Place in `build/` at repo root or within accelerator packs
 - Use variables for resource group, subscription, and location — pull from `.hackathon/config.json`
 - Tag all resources with `hackathon: true`, `customer: {name}`, `engagement-date: {date}`
 - Default to the cheapest SKU that works for PoC purposes
@@ -279,11 +286,11 @@ All content in this repo may end up in front of customers. Follow these rules:
 
 | Phase | Key Documents |
 |-------|--------------|
-| Formation | [BRIEF.md](../BRIEF.md), [config.json](../.hackathon/config.json), [formation checklist](../.hackathon/checklist-formation.md) |
-| Ideation | [use-case-canvas](../templates/use-case-canvas.md), [feasibility-scorecard](../templates/feasibility-scorecard.md) |
-| Build | [use-case template](../use-cases/_template.md), [ADC template](../architecture/decisions/_template.md), [accelerators](../accelerators/README.md) |
-| Demo | [demo-script-template](../templates/demo-script-template.md), [HANDOFF.md](../HANDOFF.md) |
-| Wind-Down | [RETRO.md](../RETRO.md), [wind-down checklist](../.hackathon/checklist-winddown.md), [knowledge checklist](../.hackathon/checklist-knowledge-extract.md) |
+| Formation | [BRIEF.md](../BRIEF.md), [config.json](../.hackathon/config.json), [checklists](../playbook/checklists.md) |
+| Ideation | [use-case-canvas](../playbook/use-case-canvas.md), [feasibility-scorecard](../playbook/feasibility-scorecard.md) |
+| Build | [use-case template](../use-cases/_template.md), [ADC template](../build/decisions/_template.md), [accelerators](../accelerators/README.md) |
+| Demo | [demo-script-template](../playbook/demo-script-template.md), [HANDOFF.md](../HANDOFF.md) |
+| Wind-Down | [RETRO.md](../RETRO.md), [checklists](../playbook/checklists.md) |
 
 ---
 
@@ -293,6 +300,7 @@ Reusable prompts are available in `.github/prompts/`:
 
 | Prompt | Use when... |
 |--------|-------------|
+| `kickstart.prompt.md` | Auto-setup: research a customer, fill BRIEF.md, generate conversation starters |
 | `ideation.prompt.md` | Brainstorming use cases from a customer brief |
 | `feasibility.prompt.md` | Scoring a use case across the 6 dimensions |
 | `demo-script.prompt.md` | Writing a demo script from a working PoC |
