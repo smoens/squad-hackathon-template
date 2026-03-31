@@ -1,3 +1,5 @@
+← [Playbook](README.md) | ← [README](../README.md)
+
 # Start Here
 
 You just stamped a new repo from the hackathon template. Welcome to the squad. This guide gets you from "blank repo" to "ready for Day 1" — and then walks you through the hackathon itself.
@@ -29,25 +31,23 @@ Every file has a purpose. Nothing is filler.
 
 The minimum viable setup to be hackathon-ready.
 
-### 1. Fill 5 fields in BRIEF.md (5 min)
+### 1. Tell Jared your company name (2 min)
 
-Open [`BRIEF.md`](../BRIEF.md) and fill in:
+Say: *"Jared, let's set up a hackathon for [Company] — they're in [industry]"*
 
-1. **Customer** — who you're building for
-2. **Industry** — their sector
-3. **Date** — when the hackathon happens
-4. **Format** — 1-day or 2-day
-5. **Business Context** — 2-3 sentences: what do they do, why are we here?
+Jared will research the customer, fill `BRIEF.md`, generate "What if..." conversation starters, and suggest accelerator packs. Review what he produces, verify the ⚠️ assumptions, and you're halfway there.
 
-> **Shortcut:** Run the `/kickstart` prompt in Copilot Chat with the company name — it researches the customer and fills `BRIEF.md` for you. Two hours of homework in 30 seconds.
+> **Manual alternative:** Open [`BRIEF.md`](../BRIEF.md) and fill the 5 key fields yourself (customer, industry, date, format, business context).
 
 ### 2. Review config.json (2 min)
 
 Open [`.hackathon/config.json`](../.hackathon/config.json) and verify `accelerator_packs` and `azure_resources` are set.
 
-### 3. Prepare 3 seed hypotheses (3 min)
+### 3. Kick off ideation (6 min)
 
-Write 3 one-sentence "What if..." questions in the Pre-Identified Use Case Hypotheses section of `BRIEF.md`. These aren't commitments — they're conversation starters for ideation.
+Say: *"Jared, let's brainstorm — what could we build for them?"*
+
+Jared will facilitate a conversation: brainstorming use cases, scoring feasibility, and helping you pick 2-3 to build. He'll ask you questions along the way — it's a conversation, not a report.
 
 **You're now ready for ideation.** Everything else is better preparation, not blockers.
 

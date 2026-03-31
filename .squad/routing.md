@@ -6,7 +6,8 @@ How to decide who handles what in the hackathon squad.
 
 | Work Type | Route To | Examples |
 |-----------|----------|----------|
-| Use case capture | Jared | Brainstorm facilitation, use case prioritization, scope gates |
+| Engagement kickoff | Jared | "Set up a hackathon for [Company]", company research, BRIEF.md filling, hypothesis generation |
+| Use case capture | Jared | Brainstorm facilitation, "let's brainstorm", use case prioritization, scope gates |
 | Technical feasibility | Gilfoyle | Architecture sketch, build/no-build evaluation, tech stack decisions |
 | PoC building | Richard | Notebook execution, pipeline development, integration code |
 | Data work | Dinesh | Data sourcing, cleaning, simulators, schema design, sample generation |

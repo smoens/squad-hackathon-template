@@ -1,3 +1,5 @@
+← [Playbook](README.md) | 💡 Ideation Phase
+
 # What-If Cards
 
 A deck of 30 stimulus cards for ideation brainstorming. Use them to break patterns, shift perspectives, and spark ideas nobody would have found through linear thinking.

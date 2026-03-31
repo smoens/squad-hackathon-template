@@ -1,3 +1,5 @@
+← [README](README.md) | 🎤 Demo → Wind-Down
+
 # 🎤 Hackathon Handoff — [Customer Name]
 
 > This is your victory lap document. You built working demos in [X] days — document it with the pride it deserves.

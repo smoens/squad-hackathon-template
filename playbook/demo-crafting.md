@@ -1,3 +1,5 @@
+← [Playbook](README.md) | 🎤 Demo Phase
+
 # Demo Crafting
 
 A great PoC with a bad demo is a wasted hackathon. The demo is where value lands — it's what the customer shows their boss on Monday.

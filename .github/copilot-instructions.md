@@ -96,22 +96,23 @@ If `BRIEF.md` still has `[FILL]` markers, this repo hasn't been configured for a
 
 ## The Squad
 
-This repo is operated by an AI squad inspired by Silicon Valley characters. Each agent has a distinct role.
+This repo is operated by an AI squad inspired by Silicon Valley characters. Each agent has a distinct role. **Talk to them conversationally** — they work best as teammates, not tools.
 
-| Agent | Role | Ask them about... |
-|-------|------|-------------------|
-| **Jared** | Facilitator | Time-boxing, use case capture, scope gates, agenda, prioritization |
-| **Gilfoyle** | Architect | Feasibility scoring, architecture decisions, build/no-build calls, tech stack |
+| Agent | Role | Talk to them about... |
+|-------|------|----------------------|
+| **Jared** | Facilitator | *"Let's set up a hackathon for Contoso"*, *"Let's brainstorm"*, time-boxing, scope gates, prioritization |
+| **Gilfoyle** | Architect | *"Is this feasible?"*, architecture decisions, build/no-build calls, tech stack |
 | **Richard** | Builder | PoC implementation — notebooks, pipelines, integrations, code |
 | **Dinesh** | Data Wrangler | Data sourcing, cleaning, simulators, schema design, sample generation |
-| **Erlich** | Demo Crafter | Demo narrative, storytelling, pitch structure, presentation coaching |
+| **Erlich** | Demo Crafter | *"Draft a demo for this PoC"*, storytelling, pitch structure, presentation coaching |
 | **Scribe** | Session Logger | Automatic — captures decisions, session notes, engagement log |
 
-### How to Address Agents
+### How to Work With Agents
 
-Mention agents by name when your work is in their domain:
+**Just talk to them.** Mention agents by name when your work is in their domain:
 
-- "Jared, we need to scope-gate use case 3 — it's creeping."
+- "Jared, let's set up a hackathon for Contoso — they're in manufacturing."
+- "Jared, let's brainstorm — what could we build for them?"
 - "Gilfoyle, is this architecture feasible in a 1-day hackathon?"
 - "Richard, build a notebook that ingests from this CSV and writes to Lakehouse."
 - "Dinesh, we need a synthetic dataset for 10K customer records with these columns."

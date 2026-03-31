@@ -1,3 +1,5 @@
+← [Playbook](README.md) | 💡 Ideation Phase
+
 # Ideation Cheat Sheet
 
 *A facilitator's cue card — keep this open during ideation. One printable page.*

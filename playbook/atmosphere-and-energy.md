@@ -1,3 +1,5 @@
+← [Playbook](README.md) | 🎯 Run a Great Hackathon
+
 # Atmosphere & Energy
 
 A hackathon isn't a meeting. It's an experience. The difference between "that was productive" and "that was unforgettable" lives in the energy design — the intentional moments, the atmosphere, the emotional arc.

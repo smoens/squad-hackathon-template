@@ -2,12 +2,7 @@
 
 # ⚡ Hackathon Squad
 
-**Two days. One squad. Real customer problems. Live demos that actually work.**
-
-> You just stamped yourself a hackathon. By the end of this, you'll have working PoCs,
-> a rehearsed demo, and a handoff doc your boss will actually read.
->
-> Let's build something real.
+> **Two days. One squad. Real customer problems. Live demos that actually work.**  
 
 <p>
 <a href="#-lifecycle"><img src="https://img.shields.io/badge/IDEATE-4F46E5?style=for-the-badge" alt="ideate" /></a>&nbsp;
@@ -36,9 +31,9 @@
 
 | Step | What | How |
 |:----:|------|-----|
-| **1** | Fill your brief | Edit [`BRIEF.md`](BRIEF.md) — or use the **ideation** prompt to auto-generate a draft |
-| **2** | Run formation | Walk through the [formation checklist](playbook/checklists.md) |
-| **3** | Follow the lifecycle | Ideate → Build → Demo → Ship (see below) |
+| **1** | Kick off | Tell Jared your company name: *"Jared, let's set up a hackathon for Contoso"* — he'll research the customer, fill your brief, and generate conversation starters |
+| **2** | Ideate | *"Jared, let's brainstorm"* — he'll facilitate use case ideation, score feasibility, and help you pick what to build |
+| **3** | Build + Demo | The squad takes it from here — Gilfoyle architects, Richard builds, Dinesh wrangles data, Erlich crafts the demo |
 | **4** | Hand it off | Fill [`HANDOFF.md`](HANDOFF.md) and send it to the customer's boss |
 
 > 💡 **First time?** Start with the [Start Here guide](playbook/start-here.md) — it walks you through everything.
@@ -94,19 +89,55 @@ Five AI agents, each with a personality and a job. They don't freelance — they
 
 Plus **Scribe** (captures everything) and **@copilot** (general assist) in supporting roles. Agent charters live in [`.squad/agents/`](.squad/agents/).
 
+> **Just talk to them.** Say *"Jared, let's kick off ideation for Contoso"* and he'll facilitate the session — researching the customer, brainstorming use cases, scoring feasibility, and walking you through the process conversationally. No prompt files needed. The squad works best when you talk to them like teammates.
+
 ---
 
-## 💬 Copilot Prompts
+## 🧠 Skills
 
-> 💡 **New here?** Start with the **ideation** prompt — just tell it your customer's name and pain points and watch the magic happen.
+The squad carries learned knowledge as **skills** — reusable patterns that make every hackathon sharper than the last.
+
+| Skill | What it teaches the squad |
+|-------|--------------------------|
+| [Hackathon Facilitation](.squad/skills/hackathon-facilitation/SKILL.md) | Phase gates, time-boxing, scope management, handoff structure |
+| [Industry Tailoring](.squad/skills/industry-tailoring/SKILL.md) | Per-industry pain points, data patterns, accelerator matching |
+| [Engagement Kickstart](.squad/skills/engagement-kickstart/SKILL.md) | Auto-setup from company name — research, BRIEF.md fill, hypothesis generation |
+| [Energy & Atmosphere](.squad/skills/energy-and-atmosphere/SKILL.md) | Energy arc design, walk-on music, awards ceremony, designed moments |
+| [Demo Storytelling](.squad/skills/demo-storytelling/SKILL.md) | 5-beat narrative arc, audience psychology, rehearsal protocols |
+| [Data Simulation](.squad/skills/data-simulation/SKILL.md) | Per-industry synthetic data patterns, generation tools, volume guidelines |
+| [Ideation Techniques](.squad/skills/ideation-techniques/SKILL.md) | What-If card deck, facilitation patterns, prioritization methods |
+
+Skills are read automatically by agents when relevant — you don't need to invoke them manually.
+
+---
+
+## 💬 How to Work With The Squad
+
+> **Talk to agents directly.** The best way to run a hackathon is to have a conversation — not run prompts. Tell Jared your company name and he'll take it from there.
+
+### Conversational (recommended)
+
+| What you want | Say this |
+|---------------|----------|
+| Kick off a new engagement | *"Jared, let's set up a hackathon for Contoso — they're in manufacturing"* |
+| Brainstorm use cases | *"Jared, let's brainstorm — what could we build for them?"* |
+| Score a use case | *"Gilfoyle, is predictive maintenance feasible in a 2-day hackathon?"* |
+| Get data flowing | *"Dinesh, we need synthetic sensor data — 10K rows, time-series"* |
+| Write a demo script | *"Erlich, draft a demo for the anomaly detection PoC"* |
+| Build a PoC | *"Richard, build a notebook that ingests from CSV and writes to Lakehouse"* |
+
+### Prompts (shortcuts)
+
+For specific structured outputs, prompts in `.github/prompts/` give you a one-shot result:
 
 | Prompt | Agent | What it does |
 |--------|-------|-------------|
-| [ideation](.github/prompts/ideation.prompt.md) | Jared | Brainstorm use cases from a customer brief, generate canvases, score feasibility |
-| [use-case-brief](.github/prompts/use-case-brief.prompt.md) | Jared | Turn a raw problem into a structured brief with pain, process, outcome, stakeholders, value |
-| [feasibility](.github/prompts/feasibility.prompt.md) | Gilfoyle | Score a use case across 6 dimensions, produce a filled feasibility scorecard |
-| [data-readiness](.github/prompts/data-readiness.prompt.md) | Dinesh | Assess data landscape, identify gaps, suggest simulator patterns, flag blockers |
-| [demo-script](.github/prompts/demo-script.prompt.md) | Erlich | Generate a 5-section demo script from a working PoC description |
+| [kickstart](.github/prompts/kickstart.prompt.md) | Jared | Research a customer, auto-fill BRIEF.md, generate "What if..." starters |
+| [ideation](.github/prompts/ideation.prompt.md) | Jared | Generate use case canvases + feasibility scores from a brief |
+| [use-case-brief](.github/prompts/use-case-brief.prompt.md) | Jared | Turn a raw problem into a structured brief |
+| [feasibility](.github/prompts/feasibility.prompt.md) | Gilfoyle | Score a use case across 6 dimensions |
+| [data-readiness](.github/prompts/data-readiness.prompt.md) | Dinesh | Assess data landscape, identify gaps, suggest simulators |
+| [demo-script](.github/prompts/demo-script.prompt.md) | Erlich | Generate a 5-section demo script from a working PoC |
 
 ---
 
