@@ -1,0 +1,39 @@
+{
+  "agents": {
+    "facilitator": {
+      "persistent_name": "Jared",
+      "universe": "Silicon Valley",
+      "created_at": "2026-03-31T00:00:00.000Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "architect": {
+      "persistent_name": "Gilfoyle",
+      "universe": "Silicon Valley",
+      "created_at": "2026-03-31T00:00:00.000Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "builder": {
+      "persistent_name": "Richard",
+      "universe": "Silicon Valley",
+      "created_at": "2026-03-31T00:00:00.000Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "data-wrangler": {
+      "persistent_name": "Dinesh",
+      "universe": "Silicon Valley",
+      "created_at": "2026-03-31T00:00:00.000Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "demo-crafter": {
+      "persistent_name": "Erlich",
+      "universe": "Silicon Valley",
+      "created_at": "2026-03-31T00:00:00.000Z",
+      "legacy_named": false,
+      "status": "active"
+    }
+  }
+}

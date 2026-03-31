@@ -1,0 +1,22 @@
+{
+  "customer": "[FILL]",
+  "industry": "[FILL]",
+  "dates": {
+    "start": "[FILL]",
+    "end": "[FILL]"
+  },
+  "format": "1-day | 2-day",
+  "squad": {
+    "facilitator": "Jared",
+    "architect": "Gilfoyle",
+    "builder": "Richard",
+    "data_wrangler": "Dinesh",
+    "demo_crafter": "Erlich"
+  },
+  "accelerator_packs": [],
+  "azure_resources": {
+    "resource_group": "[FILL]",
+    "subscription": "[FILL]"
+  },
+  "hq_repo": "smoens/squad-headquarters"
+}

@@ -1,0 +1,22 @@
+{
+  "universe_usage_history": [
+    {
+      "universe": "Silicon Valley",
+      "assignment_id": "hackathon-template-2026-03-31",
+      "used_at": "2026-03-31T00:00:00.000Z"
+    }
+  ],
+  "assignment_cast_snapshots": {
+    "hackathon-template-2026-03-31": {
+      "universe": "Silicon Valley",
+      "agents": {
+        "facilitator": "Jared",
+        "architect": "Gilfoyle",
+        "builder": "Richard",
+        "data-wrangler": "Dinesh",
+        "demo-crafter": "Erlich"
+      },
+      "created_at": "2026-03-31T00:00:00.000Z"
+    }
+  }
+}

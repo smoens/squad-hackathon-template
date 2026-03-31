@@ -1,0 +1,27 @@
+# Customer data (never commit)
+data/customer-data/
+*.env
+.env.*
+
+# Secrets
+*.pem
+*.key
+*secret*
+
+# Large files
+*.zip
+*.tar.gz
+*.parquet
+*.csv
+!data/sample-datasets/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Azure
+.azure/
