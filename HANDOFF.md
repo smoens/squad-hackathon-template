@@ -1,3 +1,5 @@
+← [README](README.md) | 🎤 Demo & Handoff Phase
+
 # Hackathon Handoff — [Customer Name]
 
 **Date:** [FILL]
@@ -125,3 +127,14 @@ graph LR
 | Resource | Type | Resource Group | Disposition |
 |----------|------|---------------|-------------|
 | [FILL] | [FILL] | [FILL] | Keep / Archive / Destroy |
+
+---
+
+## 📎 Related Documents
+
+| Document | Purpose |
+|----------|---------|
+| [Demo Script Template](templates/demo-script-template.md) | 5-part demo narrative structure |
+| [Architecture Decisions](architecture/decisions/_template.md) | ADC template |
+| [Wind-Down Checklist](.hackathon/checklist-winddown.md) | Post-hackathon checklist |
+| → [Retrospective](RETRO.md) | **Next:** Team retrospective & knowledge extraction |

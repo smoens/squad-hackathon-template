@@ -1,3 +1,5 @@
+← [README](README.md) | ← [Handoff](HANDOFF.md) | 🔄 Wind-Down Phase
+
 # Hackathon Retrospective — [Customer Name]
 
 **Date:** [FILL]
@@ -61,3 +63,13 @@
 | Action | Owner | Due |
 |--------|-------|-----|
 | [FILL] | [FILL] | [FILL] |
+
+---
+
+## 📎 Related Documents
+
+| Document | Purpose |
+|----------|---------|
+| [Knowledge Extraction Checklist](.hackathon/checklist-knowledge-extract.md) | T+1 to T+5 checklist |
+| [Wind-Down Checklist](.hackathon/checklist-winddown.md) | Post-hackathon checklist |
+| [Accelerator Packs](accelerators/README.md) | Promote patterns discovered here |

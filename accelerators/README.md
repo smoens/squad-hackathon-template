@@ -1,3 +1,5 @@
+← [README](../README.md) | 🔧 Accelerator System
+
 # Accelerator Packs
 
 Accelerator packs are **pluggable, tech-specific modules** that get loaded per engagement. They contain reference architectures, starter notebooks, provisioning scripts, and sample data for common hackathon patterns.
@@ -27,3 +29,13 @@ Each accelerator pack lives in its own directory under `accelerators/`. Packs ar
 | `_template` | Template for creating new packs | 📐 Template |
 
 *Add new packs to this table as they're created.*
+
+---
+
+## 📎 Related
+
+| Document | Purpose |
+|----------|--------|
+| [Brief](../BRIEF.md) | Customer tech landscape drives pack selection |
+| [Formation Checklist](../.hackathon/checklist-formation.md) | Select packs during formation |
+| [Knowledge Extraction](../.hackathon/checklist-knowledge-extract.md) | Promote new packs post-hackathon |

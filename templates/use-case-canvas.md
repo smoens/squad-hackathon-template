@@ -1,3 +1,5 @@
+← [README](../README.md) | 💡 Ideation Phase
+
 # Use Case Canvas
 
 *Quick ideation card — one per candidate use case. Fill in during brainstorming, then vote.*
@@ -52,3 +54,13 @@
 **Customer energy:** 🔥 High / 🟡 Medium / 🧊 Low
 
 **Squad confidence:** 🟢 Can build / 🟡 Might build / 🔴 Risky
+
+---
+
+## 📎 Related
+
+| Document | Purpose |
+|----------|--------|
+| [Feasibility Scorecard](feasibility-scorecard.md) | Score after brainstorming |
+| [Use Case Template](../use-cases/_template.md) | Full use case doc |
+| [Brief](../BRIEF.md) | Customer context and hypotheses |

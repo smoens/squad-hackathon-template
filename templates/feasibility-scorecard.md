@@ -1,3 +1,5 @@
+← [README](../README.md) | 💡 Ideation Phase
+
 # Feasibility Scorecard
 
 *Score each use case across 6 dimensions. Lower is better — a score of 1 means "easy / no risk" and 3 means "hard / high risk".*
@@ -47,3 +49,14 @@
 ---
 
 *Copy the scorecard section above for each use case.*
+
+---
+
+## 📎 Related
+
+| Document | Purpose |
+|----------|--------|
+| [Use Case Canvas](use-case-canvas.md) | Brainstorm before scoring |
+| [Use Case Template](../use-cases/_template.md) | Full use case doc (includes feasibility section) |
+| [Brief](../BRIEF.md) | Customer context for scoring |
+| [Accelerator Packs](../accelerators/README.md) | Available tech patterns |

@@ -1,3 +1,5 @@
+← [README](../README.md) | 🎤 Demo Phase
+
 # Demo Script — [Use Case Name]
 
 **Duration:** ~5 minutes
@@ -49,3 +51,13 @@ graph LR
 - [ ] Backup screenshots / recording ready
 - [ ] Internet/VPN connectivity confirmed
 - [ ] Presenter has walked through script at least once
+
+---
+
+## 📎 Related
+
+| Document | Purpose |
+|----------|--------|
+| [Handoff](../HANDOFF.md) | Customer deliverable (includes demo walkthrough) |
+| [Use Case Template](../use-cases/_template.md) | Source use case details |
+| [Wind-Down Checklist](../.hackathon/checklist-winddown.md) | Post-demo tasks |

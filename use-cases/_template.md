@@ -1,3 +1,5 @@
+← [README](../README.md) | ← [Brief](../BRIEF.md) | 💡 Ideation → 🔨 Build
+
 # Use Case: [Name]
 
 **ID:** UC-[###]
@@ -78,6 +80,16 @@ graph LR
 - [ ] Dry-run completed
 
 ---
+
+## 📎 Related Documents
+
+| Document | Purpose |
+|----------|---------|
+| [Use Case Canvas](../templates/use-case-canvas.md) | Quick ideation card for brainstorming |
+| [Feasibility Scorecard](../templates/feasibility-scorecard.md) | Detailed scoring framework |
+| [Demo Script Template](../templates/demo-script-template.md) | Structure your demo |
+| [ADC Template](../architecture/decisions/_template.md) | Record architecture decisions |
+| → [Handoff](../HANDOFF.md) | **Next:** Customer deliverable |
 
 ## Demo Script
 

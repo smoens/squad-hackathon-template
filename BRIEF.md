@@ -1,3 +1,5 @@
+← [README](README.md) | 📋 Formation Phase
+
 # Customer Engagement Brief
 
 ## Engagement Details
@@ -77,6 +79,18 @@
 5. **[Use Case Name]** — [1-sentence description]
 
 ## Pre-Hackathon Notes
+
+---
+
+## 📎 Related Documents
+
+| Document | Purpose |
+|----------|---------|
+| [Formation Checklist](.hackathon/checklist-formation.md) | Pre-hackathon preparation checklist |
+| [Config](.hackathon/config.json) | Engagement configuration |
+| [Use Case Canvas](templates/use-case-canvas.md) | Ideation brainstorming template |
+| [Feasibility Scorecard](templates/feasibility-scorecard.md) | Use case scoring framework |
+| → [Use Case Template](use-cases/_template.md) | **Next:** Define your use cases |
 
 *Any additional context, links, or prep notes.*
 
