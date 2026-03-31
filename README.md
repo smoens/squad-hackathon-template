@@ -77,3 +77,30 @@ graph LR
 | Richard | Builder | PoC execution — notebooks, pipelines |
 | Dinesh | Data Wrangler | Data sourcing, cleaning, simulators |
 | Erlich | Demo Crafter | Demo narrative, storytelling, pitch coaching |
+
+---
+
+## Documentation
+
+| Section | What's inside |
+|---------|---------------|
+| [Concepts](docs/concepts/) | Core ideas — industry tailoring, hackathon lifecycle, accelerator architecture, use-case-driven development |
+| [Guides](docs/guides/) | Step-by-step instructions — getting started, running ideation, demo crafting, data simulation, customer engagement |
+| [Principles](docs/principles/) | Foundational agreements — time-boxing, scope management, customer-first, squad operating principles |
+| [Full Index](docs/index.md) | Every document in one searchable table |
+
+---
+
+## Repository Structure
+
+| Directory | Purpose |
+|-----------|---------|
+| [`accelerators/`](accelerators/) | Reusable industry/pattern packs — drop one in to jumpstart a hackathon |
+| [`architecture/`](architecture/) | Architecture Decision Records (ADRs) for technical choices |
+| [`data/`](data/) | Sample datasets and customer data (gitignored) |
+| [`docs/`](docs/) | All documentation — concepts, guides, principles |
+| [`infrastructure/`](infrastructure/) | Provisioning scripts and IaC templates |
+| [`log/`](log/) | Session logs, daily sitreps, scribe notes |
+| [`templates/`](templates/) | Reusable templates — use case canvas, feasibility scorecard, demo script |
+| [`use-cases/`](use-cases/) | One folder per use case explored during a hackathon |
+| [`.hackathon/`](.hackathon/) | Runtime config and phase checklists |

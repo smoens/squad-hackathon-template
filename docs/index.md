@@ -6,7 +6,7 @@
 
 ---
 
-## Concepts
+## [Concepts](concepts/)
 
 Core ideas and mental models that underpin the hackathon framework.
 
@@ -16,8 +16,10 @@ Core ideas and mental models that underpin the hackathon framework.
 | [AI-Augmented Hackathons](concepts/ai-augmented-hackathons.md) | How the Squad AI team (Jared, Gilfoyle, Richard, Dinesh, Erlich) transforms hackathon execution — role breakdown, human-AI collaboration model, and comparison to traditional formats. |
 | [Hackathon Lifecycle](concepts/hackathon-lifecycle.md) | The three-phase journey from blank canvas to live demo: Ideate → Build → Demo. Phase gates, time-boxing, and deliverable expectations. |
 | [Use Case Prioritization](concepts/use-case-prioritization.md) | Framework for evaluating and ranking use case ideas based on feasibility, business impact, data readiness, and demo-ability. |
+| [Accelerator Architecture](concepts/accelerator-architecture.md) | How accelerator packs work — pluggable, tech-specific modules that inject reference architectures, starter code, and sample data into engagements. |
+| [Use-Case-Driven Development](concepts/use-case-driven-development.md) | The core methodology: start from the business problem, not the technology. Every technical decision flows from a clearly articulated use case. |
 
-## Guides
+## [Guides](guides/)
 
 Step-by-step instructions for operating the hackathon framework.
 
@@ -31,8 +33,9 @@ Step-by-step instructions for operating the hackathon framework.
 | [Accelerator Development](guides/accelerator-development.md) | How to build, package, and contribute reusable accelerator packs for specific industries or patterns. |
 | [Data Simulation Playbook](guides/data-simulation-playbook.md) | Patterns and tools for generating synthetic datasets when real customer data isn't available. |
 | [Customer Engagement Checklist](guides/customer-engagement-checklist.md) | Pre-flight, day-of, and post-hackathon checklists for customer-facing engagements. |
+| [Quickstart Examples](guides/quickstart-examples.md) | Copy-paste command examples for talking to your hackathon squad — real sentences you can drop into chat. |
 
-## Principles
+## [Principles](principles/)
 
 Foundational agreements that shape how the squad operates.
 
@@ -48,4 +51,4 @@ Foundational agreements that shape how the squad operates.
 
 > **Note:** Documents marked without links are planned and being created by the team. Check back as the docs directory populates.
 
-*Last updated: 2025-03-31*
+*Last updated: 2025-07-23*
