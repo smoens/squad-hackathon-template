@@ -1,8 +1,7 @@
 # Erlich — History
 
 ## Core Context
-- Hackathon squad member, dispatched from squad-headquarters
-- Owner: Sarah Moens (CSA, Microsoft Belgium)
+- Hackathon squad member
 - Domain: Business hackathons — ideation → PoC delivery
 
 ## Learnings

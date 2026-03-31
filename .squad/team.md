@@ -1,6 +1,6 @@
 # Squad Team
 
-> Hackathon Delivery Squad — Dispatched from squad-headquarters
+> Hackathon Delivery Squad
 
 ## Coordinator
 
@@ -40,13 +40,10 @@
 ## Project Context
 
 - **Owner:** Sarah Moens
-- **Organization:** Dispatched from squad-headquarters
-- **Principal/CEO:** Sarah Moens — Cloud Solution Architect at Microsoft Belgium
 - **Nature:** Hackathon template — stamped per engagement
 - **Cast Universe:** Silicon Valley
 - **Tech Stack:** General-purpose (accelerator packs are pluggable per engagement)
 - **Created:** 2026-03-31
-- **Dispatched From:** squad-headquarters
 
 ## Operating Rhythm
 

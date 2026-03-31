@@ -36,10 +36,10 @@ Fill-in-the-blank tools used during ideation, build, and demo phases.
 
 ## How to Use This
 
-**Formation:** Read [Start Here](start-here.md), run [Checklists](checklists.md).
-**Ideation:** Grab [What-If Cards](what-if-cards.md), use [Use Case Canvas](use-case-canvas.md) + [Feasibility Scorecard](feasibility-scorecard.md). Keep the [Ideation Cheat Sheet](ideation-cheat-sheet.md) open.
-**Build:** Templates are reference — the real work is in [`use-cases/`](../use-cases/) and [`build/`](../build/).
-**Demo:** Follow [Demo Crafting](demo-crafting.md), fill [Demo Script Template](demo-script-template.md).
+**Formation:** Read [Start Here](start-here.md), run [Checklists](checklists.md).  
+**Ideation:** Grab [What-If Cards](what-if-cards.md), use [Use Case Canvas](use-case-canvas.md) + [Feasibility Scorecard](feasibility-scorecard.md). Keep the [Ideation Cheat Sheet](ideation-cheat-sheet.md) open.  
+**Build:** Templates are reference — the real work is in [`use-cases/`](../use-cases/) and [`build/`](../build/).  
+**Demo:** Follow [Demo Crafting](demo-crafting.md), fill [Demo Script Template](demo-script-template.md).  
 **Wind-Down:** Run [Checklists](checklists.md) again.
 
 ---
